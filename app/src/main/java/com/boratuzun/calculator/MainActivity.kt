@@ -9,7 +9,7 @@ class MainActivity : AppCompatActivity() {
     private lateinit var tasarim:ActivityMainBinding
     var sonuc:String = ""
     var temp:Int = 0;
-    var arr:ArrayList<Int> = ArrayList<Int>()
+    var arr:ArrayList<Int> = ArrayList()
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
